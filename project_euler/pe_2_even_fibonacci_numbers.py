@@ -15,8 +15,7 @@ Completed on Thu, 15 Sep 2016, 22:09
 """
 
 def main():
-	
-	
+
 	fib_list = [1,2]
 	i = 1
 	x = True
