@@ -13,3 +13,21 @@ Answer:
 Completed on Thu, 15 Sep 2016, 22:09
 
 """
+
+def main():
+	
+	
+	fib_list = [1,2]
+	i = 1
+	x = True
+	while True:
+		fib_list.append(fib_list[i]+fib_list[i-1])
+		if fib_list[-1] >= 4000000:
+			break
+		else:
+			i= i+1
+	even_list_sum = sum([item for item in fib_list if item % 2 == 0])
+	print even_list_sum
+
+if __name__ == "__main__":
+	main()
